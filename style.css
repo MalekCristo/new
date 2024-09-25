@@ -334,9 +334,7 @@
   }
 
   /* About Style 2 */
-  #about{
-    margin: -2rem 0;
-  }
+ 
   
   .section__text__p1 {
     text-align: center;
@@ -360,22 +358,26 @@
   }
   #about {
     position: relative;
+    background-color: var(--second-bg-color);
   }
   
   .about-containers {
     gap: 3rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    background-color: var(--second-bg-color);
   }
   
   .about-details-container {
     justify-content: center;
     flex-direction: column;
+    
   }
   
   .about-containers,
   .about-details-container {
     display: flex;
+    
   }
   
   .about-pic {
@@ -396,6 +398,7 @@
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: var(--main-color);
     text-align: center;
+    background-color: var(--second-bg-color);
   }
   
   .section-container {
@@ -435,7 +438,7 @@
 
 #skills {
   position: relative;
-  margin: 2rem 0;
+  margin: 4rem 0;
   background-color: var(--bg-color);
   color: black;
 
@@ -495,3 +498,10 @@
   font-size: 8rem;
 }
 
+/* projects SECTION 2 */
+
+#projects{
+
+  background-color: var(--second-bg-color);
+
+}
