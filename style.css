@@ -351,8 +351,8 @@
   
   .section__text__p1 {
     text-align: center;
-    font-size: 3rem;
-    color: white;
+    font-size: 2.5rem;
+    color: rgb(82, 78, 78);
 
   }
   .title {
@@ -395,12 +395,6 @@
   
   .about-pic {
     border-radius: 2rem;
-  }
-  
-  .arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
   }
   
   .details-container {
@@ -570,5 +564,12 @@
 .project-card h3{
   font-size: 3rem;
   font-weight: 500;
+
+}
+
+.section-container i{
+  margin-top: 11cm;
+  font-size: 10rem;
+  color: var(--main-color);
 
 }
