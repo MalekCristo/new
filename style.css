@@ -69,6 +69,17 @@
     color: transparent;
   }
 
+  .multiple-text{
+    background: linear-gradient(
+        270deg,
+        rgb(240, 123, 240) 10%,
+        rgb(223, 47, 77) 100%
+    );
+    background-clip: text;
+    color: transparent;
+
+  }
+
   .navbar a{
 
     font-size: 1.8rem;
@@ -145,8 +156,10 @@
 
     font-size: 4rem;
     margin: 1rem 0;
+    
   }
 
+  
   .home-content p{
 
     font-size: 1.5rem;
@@ -414,19 +427,20 @@
 
   .details-container p{
 
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8;
   }
 
   .details-container h3{
 
-    font-size: 2rem;
+    font-size: 2.5rem;
     
   }
 
+
   .text-container p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.8;
     
   }
@@ -500,8 +514,61 @@
 
 /* projects SECTION 2 */
 
-#projects{
+.projects{
 
   background-color: var(--second-bg-color);
+  
+}
+
+.projects-box{
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  place-items: center;
+  gap:2rem;
+  row-gap:3rem;
+}
+
+.project-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+  background-color: var(--second-bg-color);
+  border: 2px solid var(--main-color) ;
+  border-radius: 3rem;
+  gap:2rem;
+  padding: 5rem 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 5px var(--main-color);
+  transition: 0.3s ease-in-out;
+}
+
+.project-card:hover{
+  box-shadow: 0 0 25px var(--main-color),
+              0 0 50px var(--main-color);
+  
+  transform: scale(1.02);
+
+}
+
+.project-card img{
+  max-width: 200px;
+  object-fit: cover;
+}
+
+.project-card p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+
+}
+
+.project-card h3{
+  font-size: 3rem;
+  font-weight: 500;
 
 }

@@ -29,3 +29,13 @@ function toggleMenu() {
     icon.classList.toggle("open");
   }
   
+
+  // Typing Text Code
+
+const typed = new Typed('.multiple-text', {
+    strings: ['Frontend Developer', 'Backend Developer', 'Blockchain Developer', 'Web Designer', 'Photographer'],
+    typeSpeed: 80,
+    backSpeed: 80,
+    backDelay: 1200,
+    loop: true,
+  });
